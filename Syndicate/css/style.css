@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+* {
+    margin: 0;
+    font-family: 'Cookie', cursive;
+}
+
+.intro{
+    position: absolute;
+    background: url(../img/antarktika-liod-aisberg-voda-okean-gory-nebo-kholod-cold-sky.jpg) center no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#time {
+    background: url(../img/antarktika-liod-aisberg-voda-okean-gory-nebo-kholod-cold-sky.jpg) center no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    margin-top: 300px;
+
+
+    width: 700px;
+    height: 250px;
+    background-color: rgb(22, 200, 206);
+    border-radius: 50px;
+    box-shadow: 0px 5px 150px purple;
+    border: 2px solid purple;
+
+    font-size: 50px;
+    font-weight: bold;
+
+    text-shadow: 0px 5px 10px purple;
+    -webkit-text-stroke: 2px black;
+    color: purple;
+}
